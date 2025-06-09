@@ -20,7 +20,7 @@ async def root():
 async def imagen_markdown(nombre_empleado: str):
     
     # Este es un ejemplo de URL de imagen dummy. En un caso real, deberías reemplazarla con la lógica necesaria para conseguir la URL de la imagen del recibo de sueldo real de la persona que lo solicita.
-    URL_IMAGEN = "https://raw.github.ibm.com/skol/agentic-ai-client-bootcamp/main/usecases/business-automation/assets/Business_Automation_Architecture.png?token=GHSAT0AAAAAAACRRDF2M3IMYVB47U3OKTEE2CO6JQA"
+    URL_IMAGEN = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rafap.com.uy%2Fmvdcms%2Fimgnoticias%2F202109%2F9691.png&f=1&nofb=1&ipt=5ad647da537e4656bbad02f4fc95c261e1fd96611bc77c3984344fa7bb304fbc"
     markdown_str = f"![Imagen recibo de sueldo de {nombre_empleado}]({URL_IMAGEN})"
     
     return {"markdown": markdown_str}
