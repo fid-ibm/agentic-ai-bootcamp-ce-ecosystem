@@ -2,6 +2,41 @@
 
 ![Arquitectura MCP](../assets/rrhh-agente-mcp.jpg)
 
+## Tabla de Contenidos
+- [🤖 Agente de Operaciones de RRHH (MCP)](#-agente-de-operaciones-de-rrhh-mcp)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción](#descripción)
+  - [¿Qué hace este agente?](#qué-hace-este-agente)
+  - [Cómo funciona](#cómo-funciona)
+    - [Arquitectura Técnica](#arquitectura-técnica)
+    - [Flujo de Operación](#flujo-de-operación)
+    - [Herramientas Disponibles](#herramientas-disponibles)
+  - [¿Qué es Model Context Protocol (MCP)?](#qué-es-model-context-protocol-mcp)
+    - [Arquitectura General de MCP](#arquitectura-general-de-mcp)
+    - [¿Por qué usar MCP?](#por-qué-usar-mcp)
+    - [Conceptos Clave de MCP](#conceptos-clave-de-mcp)
+    - [Implementación en Este Agente](#implementación-en-este-agente)
+  - [Setup e Instalación](#setup-e-instalación)
+    - [Prerrequisitos](#prerrequisitos)
+    - [Instalación Local](#instalación-local)
+    - [Instalación con Docker](#instalación-con-docker)
+  - [Obtención de Credenciales](#obtención-de-credenciales)
+    - [IBM Watsonx.ai](#ibm-watsonxai)
+    - [Backend MCP](#backend-mcp)
+    - [Archivo .env](#archivo-env)
+  - [Ejemplos de Operaciones](#ejemplos-de-operaciones)
+    - [1. Consultar Información de Empleado](#1-consultar-información-de-empleado)
+    - [2. Solicitar Días de Licencia](#2-solicitar-días-de-licencia)
+    - [3. Actualizar Dirección](#3-actualizar-dirección)
+    - [4. Consultar Balance de Licencias](#4-consultar-balance-de-licencias)
+    - [5. Actualizar Cargo](#5-actualizar-cargo)
+  - [Endpoints de la API](#endpoints-de-la-api)
+    - [GET /v1/agents](#get-v1agents)
+    - [POST /v1/chat](#post-v1chat)
+  - [Limitaciones y Consideraciones](#limitaciones-y-consideraciones)
+  - [Soporte y Mantenimiento](#soporte-y-mantenimiento)
+
+
 ## Descripción
 
 El **Agente de Operaciones de RRHH** es un agente de inteligencia artificial especializado en la gestión integral de operaciones de recursos humanos. Este agente utiliza el protocolo MCP (Model Context Protocol) para conectarse con sistemas backend de RRHH, permitiendo a los empleados realizar consultas y operaciones de manera natural y eficiente.

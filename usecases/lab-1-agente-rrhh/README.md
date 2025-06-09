@@ -1,6 +1,18 @@
-# 🧑‍💼 Agente Gestión de Recursos Humanos
+# 🧪 Guía Lab 1 - Agente Gestión de Recursos Humanos
 
-<img alt="PreguntaRRHH" src="assets/hr_landscape.jpg">
+<img alt="Agente Gestión de Recursos Humanos" src="assets/hr_landscape.jpg">
+
+## 📖 Tabla de Contenidos
+- [🧪 Guía Lab 1 - Agente Gestión de Recursos Humanos](#-guía-lab-1---agente-gestión-de-recursos-humanos)
+  - [📖 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [🤔 El Problema](#-el-problema)
+  - [🎯 Objetivo](#-objetivo)
+  - [📈 Valor Empresarial](#-valor-empresarial)
+  - [🏛️ Arquitectura](#️-arquitectura)
+      - [Capacidades clave del Agente Gestión de Recursos Humanos:](#capacidades-clave-del-agente-gestión-de-recursos-humanos)
+    - [Componentes de la Arquitectura](#componentes-de-la-arquitectura)
+  - [🎥 Demostración](#-demostración)
+
 
 Uno de los principales desafíos que enfrentan las grandes organizaciones es la gestión de sus operaciones de recursos humanos. A medida que las empresas crecen en tamaño, se vuelve cada vez más difícil obtener información de manera rápida y ejecutar tareas con facilidad. Con el auge de los sistemas agénticos y el poder de los modelos de razonamiento, se vuelve más sencillo tener un único punto de entrada para realizar prácticamente todas las operaciones de RRHH.
 
@@ -56,7 +68,3 @@ _Aún no disponible_
 
 > [!IMPORTANT]
 > Este laboratorio utiliza un simulador para un sistema de Gestión de Capital Humano. Sin embargo, esto podría cambiarse fácilmente a cualquier sistema real que esté ejecutándose en producción como Workday u otros.
-
-
-## 📄 Laboratorio práctico paso a paso
-_Aún no disponible_
