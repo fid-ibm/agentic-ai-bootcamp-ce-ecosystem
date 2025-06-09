@@ -1,0 +1,1 @@
+![Imagen Recibo de Sueldo de aa](https://raw.github.ibm.com/skol/agentic-ai-client-bootcamp/main/usecases/business-automation/assets/Business_Automation_Architecture.png?token=GHSAT0AAAAAAACRRDF2M3IMYVB47U3OKTEE2CO6JQA)

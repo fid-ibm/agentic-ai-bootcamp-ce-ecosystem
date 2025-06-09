@@ -1,0 +1,4 @@
+fastmcp
+uvicorn
+pydantic
+typing-extensions
