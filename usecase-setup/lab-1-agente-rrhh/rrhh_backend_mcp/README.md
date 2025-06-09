@@ -1,10 +1,5 @@
 # 🤖 RRHH Backend MCP - Sistema de Gestión de Recursos Humanos
 
-![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastMCP](https://img.shields.io/badge/FastMCP-Server-green?style=for-the-badge)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
 ## Tabla de Contenidos
 - [🤖 RRHH Backend MCP - Sistema de Gestión de Recursos Humanos](#-rrhh-backend-mcp---sistema-de-gestión-de-recursos-humanos)
   - [Tabla de Contenidos](#tabla-de-contenidos)
@@ -63,14 +58,14 @@ El servidor maneja un sistema completo de gestión de empleados con capacidades 
 
 ## 🔧 Funcionalidades
 
-- **👥 Gestión de Empleados**: Consulta completa de información de empleados por nombre o ID
-- **🏠 Actualización de Direcciones**: Modificación de direcciones de empleados con validación
-- **💼 Gestión de Cargos**: Actualización de posiciones y roles de empleados
-- **🏖️ Sistema de Licencias**: Consulta y solicitud de días de licencia con límites anuales
-- **✅ Validaciones Automáticas**: Control de límites de licencia y validación de fechas
-- **📊 Respuestas en Markdown**: Formateo automático de respuestas para mejor legibilidad
-- **🔄 Persistencia de Datos**: Almacenamiento en CSV con operaciones CRUD
-- **🛡️ Manejo de Errores**: Respuestas descriptivas sin excepciones
+- **Gestión de Empleados**: Consulta completa de información de empleados por nombre o ID
+- **Actualización de Direcciones**: Modificación de direcciones de empleados con validación
+- **Gestión de Cargos**: Actualización de posiciones y roles de empleados
+- **Sistema de Licencias**: Consulta y solicitud de días de licencia con límites anuales
+- **Validaciones Automáticas**: Control de límites de licencia y validación de fechas
+- **Respuestas en Markdown**: Formateo automático de respuestas para mejor legibilidad
+- **Persistencia de Datos**: Almacenamiento en CSV con operaciones CRUD
+- **Manejo de Errores**: Respuestas descriptivas sin excepciones
 
 ## 🏛️ Arquitectura del Código
 

@@ -1,15 +1,16 @@
 # 🏗️ RRHH Backend API - Sistema de Recibos de Sueldo
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
 ## Tabla de Contenidos
 - [🏗️ RRHH Backend API - Sistema de Recibos de Sueldo](#️-rrhh-backend-api---sistema-de-recibos-de-sueldo)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [📖 Descripción](#-descripción)
   - [🔧 Funcionalidades](#-funcionalidades)
   - [🏛️ Arquitectura del Código](#️-arquitectura-del-código)
+    - [Componentes Principales](#componentes-principales)
+    - [FastAPI Application](#fastapi-application)
+    - [Configuración CORS](#configuración-cors)
+    - [Endpoint de Health Check](#endpoint-de-health-check)
+    - [Endpoint Principal de Recibos](#endpoint-principal-de-recibos)
   - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
   - [🚀 Instalación y Configuración](#-instalación-y-configuración)
     - [Prerrequisitos](#prerrequisitos)
@@ -17,12 +18,24 @@
     - [Instalación con Docker](#instalación-con-docker)
   - [📋 Endpoints de la API](#-endpoints-de-la-api)
     - [GET /](#get-)
-    - [GET /hr/recibo/imagen](#get-hrreciboImagen)
+    - [GET /hr/recibo/imagen](#get-hrreciboimagen)
   - [🧪 Pruebas de la API](#-pruebas-de-la-api)
+    - [Usando curl](#usando-curl)
+    - [Usando Python requests](#usando-python-requests)
+    - [Usando Swagger UI](#usando-swagger-ui)
   - [📊 Monitoreo y Logs](#-monitoreo-y-logs)
+    - [Logs de la Aplicación](#logs-de-la-aplicación)
+    - [Métricas Disponibles](#métricas-disponibles)
   - [🔒 Seguridad](#-seguridad)
+    - [Configuración Actual](#configuración-actual)
+    - [Recomendaciones para Producción](#recomendaciones-para-producción)
   - [🐳 Dockerización](#-dockerización)
+    - [Dockerfile Explicado](#dockerfile-explicado)
+    - [Comandos Docker Útiles](#comandos-docker-útiles)
   - [🔧 Desarrollo y Mantenimiento](#-desarrollo-y-mantenimiento)
+    - [Agregar Nuevos Endpoints](#agregar-nuevos-endpoints)
+    - [Conectar con Sistema Real](#conectar-con-sistema-real)
+    - [Dependencias](#dependencias)
 
 ## 📖 Descripción
 
