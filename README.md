@@ -16,6 +16,6 @@ Selecciona un caso de uso empresarial, conoce la historia de negocio e implemén
 - [Laboratorio 2 - Automatización de negocios](./usecases/lab-2-agente-automatizacion)
 
 ## Autores
-- [Facundo Iraola](www.linkedin.com/in/firaola) | Client Engineering - Ecosystem | AI Engineer - Lead (LATAM) | [fid@ibm.com](mailto:fid@ibm.com)
+- [Facundo Iraola](https://www.linkedin.com/in/firaola/) | Client Engineering - Ecosystem | AI Engineer - Lead (LATAM) | [fid@ibm.com](mailto:fid@ibm.com)
 
 - [Sebastian Fripp](https://www.linkedin.com/in/sebastian-fripp/) | Client Engineering - Ecosystem | AI Engineer - Lead (LATAM) | [sfripp@ibm.com](mailto:sfripp@ibm.com)

@@ -1,113 +1,113 @@
-# Project Setup - New Project
+# Configuración del Proyecto - Nuevo Proyecto
 ---
-## Summary
-Before starting the first technical lab, we will be walking through how to create your own project to get familiar with watsonx.ai and ensure you have access to your environment for the bootcamp. 
+## Resumen
+Antes de comenzar el primer laboratorio técnico, repasaremos cómo crear tu propio proyecto para familiarizarte con watsonx.ai y asegurar que tengas acceso a tu entorno para el bootcamp.
 
-It is important we create a project in the right environment, or else it will cause issues down the line!
+¡Es importante que creemos un proyecto en el entorno correcto, o causará problemas más adelante!
 
-## Table of Contents
+## 📖 Tabla de Contenidos
 
-- [Project Setup - New Project](#project-setup---new-project)
-  - [Summary](#summary)
-  - [Table of Contents](#table-of-contents)
-    - [1. Log into watsonx](#1-log-into-watsonx)
-    - [2. Check that you are in the right instance](#2-check-that-you-are-in-the-right-instance)
-    - [3. Create a new project](#3-create-a-new-project)
+- [Configuración del Proyecto - Nuevo Proyecto](#configuración-del-proyecto---nuevo-proyecto)
+  - [Resumen](#resumen)
+  - [📖 Tabla de Contenidos](#-tabla-de-contenidos)
+    - [1. Iniciar sesión en watsonx](#1-iniciar-sesión-en-watsonx)
+    - [2. Verificar que estás en la instancia correcta](#2-verificar-que-estás-en-la-instancia-correcta)
+    - [3. Crear un nuevo proyecto](#3-crear-un-nuevo-proyecto)
     - [Cloud Object Storage (COS)](#cloud-object-storage-cos)
-    - [Click Create](#click-create)
-    - [4. Associate the correct runtime instance](#4-associate-the-correct-runtime-instance)
-  - [Steps to Access Project ID](#steps-to-access-project-id)
+    - [Hacer clic en Crear](#hacer-clic-en-crear)
+    - [4. Asociar la instancia de runtime correcta](#4-asociar-la-instancia-de-runtime-correcta)
+  - [Pasos para Acceder al ID del Proyecto](#pasos-para-acceder-al-id-del-proyecto)
 
-### 1. Log into watsonx<a name="log-in-to-watsonx"></a>
+### 1. Iniciar sesión en watsonx<a name="log-in-to-watsonx"></a>
 ---
-Next, follow this link to log into watsonx: https://dataplatform.cloud.ibm.com/wx/home?context=wx
+A continuación, sigue este enlace para iniciar sesión en watsonx: https://dataplatform.cloud.ibm.com/wx/home?context=wx
 
-Please accept the Terms & Conditions!
+¡Por favor acepta los Términos y Condiciones!
 
-### 2. Check that you are in the right instance<a name="check-instance"></a>
+### 2. Verificar que estás en la instancia correcta<a name="check-instance"></a>
 ---
-You should now be taken to the watsonx home screen. Check at the top right that you are in the right instance. If it does not show the right name of the instance, you can select it in the drop-down. For the entirety of the bootcamp, you will be working in that same instance!
+Ahora deberías ser llevado a la pantalla de inicio de watsonx. Verifica en la parte superior derecha que estás en la instancia correcta. Si no muestra el nombre correcto de la instancia, puedes seleccionarlo en el menú desplegable. ¡Durante todo el bootcamp, trabajarás en esa misma instancia!
 
-If you do not know your instance, go to your techzone reservations list https://techzone.ibm.com/my/reservations. Look for your recently created reservation and click on "Open this environment". Scroll down and look for a reservation name that looks similar to this:  ITZ-WATSONX-21. 
+Si no conoces tu instancia, ve a tu lista de reservaciones de techzone https://techzone.ibm.com/my/reservations. Busca tu reservación creada recientemente y haz clic en "Open this environment". Desplázate hacia abajo y busca un nombre de reservación que se vea similar a esto: ITZ-WATSONX-21.
 
-**Note:** The instance at the top right tends to change to your default personal account every time you switch/go back to a new page. Thus, it's always good to check the top right corner every time you switch to a new page.
+**Nota:** La instancia en la parte superior derecha tiende a cambiar a tu cuenta personal predeterminada cada vez que cambias/regresas a una nueva página. Por lo tanto, siempre es bueno verificar la esquina superior derecha cada vez que cambies a una nueva página.
 
 ![check-right-instance](assets/check-right-instance.png)
 
-### 3. Create a new project<a name="new-project"></a>
+### 3. Crear un nuevo proyecto<a name="new-project"></a>
 ---
-Now, we can go ahead and create a new project. 
+Ahora, podemos proceder y crear un nuevo proyecto.
 
-In the **Projects** section, click the "+" symbol to create a new project.
- 
-Or, use the link here to trigger a [New Project](https://dataplatform.cloud.ibm.com/projects/new-project?context=wx) creation.
+En la sección **Proyectos**, haz clic en el símbolo "+" para crear un nuevo proyecto.
+
+O, usa el enlace aquí para activar la creación de un [Nuevo Proyecto](https://dataplatform.cloud.ibm.com/projects/new-project?context=wx).
 
 ![create-new-project](assets/create-new-project.png)
 
-Enter a **unique name** for your project, include both your first and last name and any other information you would like.
+Ingresa un **nombre único** para tu proyecto, incluye tanto tu nombre como tu apellido y cualquier otra información que desees.
 
 ![unique-name](assets/unique-name.png)
 
 ### Cloud Object Storage (COS)
-It is likely there is also already a Cloud Object Storage instance selected for you, with a name that starts with "itzcos-..." If so, you don't have to do anything! 
+Es probable que también haya una instancia de Cloud Object Storage ya seleccionada para ti, con un nombre que comience con "itzcos-..." ¡Si es así, no tienes que hacer nada!
 
-Otherwise, you may be prompted to select from multiple instances. Please consult with your bootcamp lead which COS instance to select.
+De lo contrario, es posible que se te solicite seleccionar entre múltiples instancias. Por favor consulta con tu líder del bootcamp qué instancia COS seleccionar.
 
 ![select-instance](assets/select-instance.png)
 
-### Click Create
-Now, click Create. It may take a few seconds to officially be created.
+### Hacer clic en Crear
+Ahora, haz clic en Crear. Puede tomar algunos segundos ser creado oficialmente.
 
-### 4. Associate the correct runtime instance<a name="runtime-instance"></a>
+### 4. Asociar la instancia de runtime correcta<a name="runtime-instance"></a>
 ---
-With the project created, you should be directed to the project home page. Select the "Manage" tab.
+Con el proyecto creado, deberías ser dirigido a la página de inicio del proyecto. Selecciona la pestaña "Gestionar".
 
-Click on "Services and Integrations" in the left sidebar. Then, click on "Associate service."
+Haz clic en "Servicios e Integraciones" en la barra lateral izquierda. Luego, haz clic en "Asociar servicio."
 
 ![manage-tab](assets/manage-tab.png)
 
-Select the service listed with "Type" = "watsonx.ai Runtime" and click **Associate**. 
+Selecciona el servicio listado con "Tipo" = "watsonx.ai Runtime" y haz clic en **Asociar**.
 
 ![select-runtime-service](assets/select-runtime-service.png)
 
-**Note:** If you can't find the service, remove all filters from the "Locations" dropdown. If you see 2+ Watson Machine Learning services, select the one where "Group" = the same *environment* name of the instance. The *environment* name can be found on https://techzone.ibm.com/my/reservations. 
+**Nota:** Si no puedes encontrar el servicio, remueve todos los filtros del menú desplegable "Ubicaciones". Si ves 2+ servicios Watson Machine Learning, selecciona el que tenga "Grupo" = el mismo nombre de *entorno* de la instancia. El nombre del *entorno* se puede encontrar en https://techzone.ibm.com/my/reservations.
 
-6. Click on the **hamburger menu (☰)** in the top-left corner and select **"Access (IAM)"**.  
+6. Haz clic en el **menú hamburguesa (☰)** en la esquina superior izquierda y selecciona **"Acceso (IAM)"**.
 
-   ![Access IAM](/usecase-setup/environment-setup/assets/iam-access.png)  
+   ![Access IAM](/usecase-setup/environment-setup/assets/iam-access.png)
 
-7. In the left-hand menu, click on **"API Keys"**.  
+7. En el menú de la izquierda, haz clic en **"Claves API"**.
 
-   ![API Keys Menu](/usecase-setup/environment-setup/assets/click-api-key.png)  
+   ![API Keys Menu](/usecase-setup/environment-setup/assets/click-api-key.png)
 
-8. Click **"Create"** to generate a new API key.  
+8. Haz clic en **"Crear"** para generar una nueva clave API.
 
-   ![API Key Page](/usecase-setup/environment-setup/assets/create-api-key.png)  
+   ![API Key Page](/usecase-setup/environment-setup/assets/create-api-key.png)
 
-9. Enter a name for your API key and click **"Create"**.  
+9. Ingresa un nombre para tu clave API y haz clic en **"Crear"**.
 
-   ![Create Api key](/usecase-setup/environment-setup/assets/api-key-details.png)  
+   ![Create Api key](/usecase-setup/environment-setup/assets/api-key-details.png)
 
-10. **Copy your API key** and save it in a secure location. You will need it in later steps.  
+10. **Copia tu clave API** y guárdala en un lugar seguro. La necesitarás en pasos posteriores.
 
-    ![Api Key Show](/usecase-setup/environment-setup/assets/copy-api-key.png)  
+    ![Api Key Show](/usecase-setup/environment-setup/assets/copy-api-key.png)
 
 
 
-## Steps to Access Project ID
+## Pasos para Acceder al ID del Proyecto
 
-1. Click on the hamburger menu (three horizontal lines) located at the top-left corner of the screen, You will see view all project options under Project section.
+1. Haz clic en el menú hamburguesa (tres líneas horizontales) ubicado en la esquina superior izquierda de la pantalla. Verás todas las opciones de proyecto bajo la sección Proyecto.
    
    ![Hamburger Menu](/usecase-setup/environment-setup/assets/hamburger_click.png) 
 
-2. Now you will be redirected to list of Projects, find and click on the project you want to work with.
+2. Ahora serás redirigido a la lista de Proyectos, encuentra y haz clic en el proyecto con el que quieres trabajar.
 
    ![Project Selection](/usecase-setup/environment-setup/assets/choose_project.png)  
 
-3. Once inside the project view, click on the "Manage Options" button.
+3. Una vez dentro de la vista del proyecto, haz clic en el botón "Opciones de Gestión".
 
-4. After clicking "Manage Options", the Project ID will be displayed copy Project ID for further use.
+4. Después de hacer clic en "Opciones de Gestión", se mostrará el ID del Proyecto, copia el ID del Proyecto para uso posterior.
 
    ![Project ID](/usecase-setup/environment-setup/assets/click_manage_get_projectId.png) 
 
-Now that we have created both the Project ID and the API Key, we will proceed with the creation of our agents.
+Ahora que hemos creado tanto el ID del Proyecto como la Clave API, procederemos con la creación de nuestros agentes.

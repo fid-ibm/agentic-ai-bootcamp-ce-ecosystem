@@ -1,19 +1,19 @@
-# Access Class Environment
+# Acceder al Entorno de Clase
 
-**Note:** Follow these instructions for accessing your instance of the class environment in order to successfully complete the Agentic AI Bootcamp. 
+**Nota:** Sigue estas instrucciones para acceder a tu instancia del entorno de clase con el fin de completar exitosamente el Bootcamp de IA Agéntica.
 
-When you are invited to the class environment, you'll receive an email. This message is from IBM Technology Zone <noreply@techzone.ibm.com> inviting you to join the account where your class environment is located.
+Cuando seas invitado al entorno de clase, recibirás un correo electrónico. Este mensaje es de IBM Technology Zone <noreply@techzone.ibm.com> invitándote a unirte a la cuenta donde se encuentra tu entorno de clase.
 
-In the email, look for the link in the sentence **"Please go HERE to accept your invitation."** (Highlighted in the screenshot below.)
+En el correo electrónico, busca el enlace en la oración **"Please go HERE to accept your invitation."** (Resaltado en la captura de pantalla a continuación.)
 
 ![TZ-invite](assets/TZ-invite.png)
 
 
-**Option:** If you miss the email or don't receive it for any reason! 
+**Opción:** ¡Si pierdes el correo electrónico o no lo recibes por alguna razón!
 
-You can find the invitation on your IBM Cloud account:
+Puedes encontrar la invitación en tu cuenta de IBM Cloud:
 [https://cloud.ibm.com/notifications?type=account](https://cloud.ibm.com/notifications?type=account)
 
-Please select the **Join Now** link. 
+Por favor selecciona el enlace **Unirse Ahora**.
 
 ![account-notifications](assets/account-notifications.png)
