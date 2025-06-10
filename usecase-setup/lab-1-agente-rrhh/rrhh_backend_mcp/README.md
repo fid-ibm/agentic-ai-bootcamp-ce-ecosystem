@@ -44,7 +44,6 @@
   - [🔧 Desarrollo y Mantenimiento](#-desarrollo-y-mantenimiento)
     - [Agregar Nuevas Herramientas MCP](#agregar-nuevas-herramientas-mcp)
     - [Modificar Validaciones](#modificar-validaciones)
-    - [Conectar con Base de Datos](#conectar-con-base-de-datos)
     - [Dependencias](#dependencias)
   - [📚 ¿Qué es Model Context Protocol (MCP)?](#-qué-es-model-context-protocol-mcp)
     - [Beneficios de MCP en este Sistema](#beneficios-de-mcp-en-este-sistema)
@@ -500,26 +499,6 @@ def validar_email(email: str) -> bool:
     import re
     pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     return re.match(pattern, email) is not None
-```
-
-### Conectar con Base de Datos
-
-Para reemplazar CSV con base de datos:
-
-```python
-import sqlite3
-# o
-import psycopg2  # PostgreSQL
-# o 
-from sqlalchemy import create_engine
-
-def _load_employees():
-    conn = sqlite3.connect('rrhh.db')
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM empleados")
-    employees = cursor.fetchall()
-    conn.close()
-    return employees
 ```
 
 ### Dependencias
