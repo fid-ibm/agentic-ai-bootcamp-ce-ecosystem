@@ -52,23 +52,31 @@ El agente está construido utilizando las siguientes tecnologías:
 
 ### Instalación Local
 
-1. **Clonar el repositorio**:
-```bash
-cd usecases/lab-1-agente-rrhh/rrhh-agente-api
-```
+1. **Crear un entorno virtual**:
+
+  - **En macOS/Linux**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+  - **En Windows**:
+    ```cmd
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
 2. **Instalar dependencias**:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Configurar variables de entorno**:
+1. **Configurar variables de entorno**:
 ```bash
 cp .env.example .env
 # Editar .env con las credenciales correspondientes
 ```
 
-4. **Ejecutar el agente**:
+1. **Ejecutar el agente**:
 ```bash
 python3 app.py
 ```
@@ -131,9 +139,7 @@ RRHH_BACKEND_API_URL="http://localhost:8080"
 ```
 
 **Salida esperada**:
-```markdown
-![Imagen recibo de sueldo de Juan Pablo Tejera](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rafap.com.uy%2Fmvdcms%2Fimgnoticias%2F202109%2F9691.png&f=1&nofb=1&ipt=5ad647da537e4656bbad02f4fc95c261e1fd96611bc77c3984344fa7bb304fbc)
-```
+Aquí está tu recibo de sueldo:\n\n![Imagen recibo de sueldo de Juan Pablo Tejera](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rafap.com.uy%2Fmvdcms%2Fimgnoticias%2F202109%2F9691.png&f=1&nofb=1&ipt=5ad647da537e4656bbad02f4fc95c261e1fd96611bc77c3984344fa7bb304fbc)
 
 ### 2. Solicitud con Variación de Lenguaje
 
@@ -195,19 +201,16 @@ RRHH_BACKEND_API_URL="http://localhost:8080"
 
 **Salida esperada (streaming)**:
 ```json
-{
-  "event": "thread.message.delta",
-  "data": {
-    "choices": [
-      {
-        "delta": {
-          "role": "assistant",
-          "content": "![Imagen recibo de sueldo de Araceli Garrido](https://...)"
-        }
-      }
-    ]
-  }
-}
+event: thread.run.step.delta
+data: {"id": "step-afaa5492-e974-4833-b6be-cfc5c92fb266", "object": "thread.run.step.delta", "thread_id": "feba6c46-40c5-42eb-80d4-91c15c9cd57b", "model": "langgraph-agent", "created": 1749525380, "choices": [{"delta": {"role": "assistant", "step_details": {"type": "thinking", "content": "Analyzing the request and formulating a response..."}}}]}
+
+event: thread.message.delta
+data: {"id": "msg-710805a9-cc35-41ad-9ece-7e664261b9a9", "object": "thread.message.delta", "thread_id": "feba6c46-40c5-42eb-80d4-91c15c9cd57b", "model": "langgraph-agent", "created": 1749525388, "choices": [{"delta": {"role": "assistant", "content": "Aqu\u00ed est\u00e1 tu recibo de sueldo Araceli Garrido: ![Imagen recibo"}}]}
+
+event: thread.message.delta
+data: {"id": "msg-37072195-96e8-4d57-b977-20c57b9ad179", "object": "thread.message.delta", "thread_id": "feba6c46-40c5-42eb-80d4-91c15c9cd57b", "model": "langgraph-agent", "created": 1749525388, "choices": [{"delta": {"role": "assistant", "content": "de sueldo de Araceli Garrido](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rafap.com.uy%2Fmvdcms%2Fimgnoticias%2F202109%2F9691.png&f=1&nofb=1&ipt=5ad647da537e4656bbad02f4fc95c261e1fd96611bc77c3984344fa7bb304fbc)"}}]}
+
+
 ```
 
 ## Endpoints de la API

@@ -134,26 +134,34 @@ Esta arquitectura permite:
 
 ### Instalación Local
 
-1. **Clonar el repositorio**:
-```bash
-cd usecases/lab-1-agente-rrhh/rrhh-agente-mcp
-```
+1. **Crear un entorno virtual**:
 
-2. **Instalar dependencias**:
-```bash
-pip install -r requirements.txt
-```
+  - **En macOS/Linux**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+  - **En Windows**:
+    ```cmd
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
-3. **Configurar variables de entorno**:
-```bash
-cp .env.example .env
-# Editar .env con las credenciales correspondientes
-```
+3. **Instalar dependencias**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-4. **Ejecutar el agente**:
-```bash
-python3 app.py
-```
+4. **Configurar variables de entorno**:
+  ```bash
+  cp .env.example .env
+  # Editar .env con las credenciales correspondientes
+  ```
+
+5. **Ejecutar el agente**:
+  ```bash
+  python3 app.py
+  ```
 
 ### Instalación con Docker
 
@@ -232,7 +240,7 @@ RRHH_BACKEND_MCP_URL="http://localhost:8080"
   "messages": [
     {
       "role": "user",
-      "content": "Quiero solicitar licencia del 15/06/2025 al 19/06/2025 para Juan Pablo Tejera"
+      "content": "Quiero solicitar licencia del 15/06/2025 al 19/06/2025 mi nombre es Juan Pablo Tejera"
     }
   ],
   "stream": false
