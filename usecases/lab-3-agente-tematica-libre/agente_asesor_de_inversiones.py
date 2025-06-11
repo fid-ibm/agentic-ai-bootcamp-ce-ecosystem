@@ -44,22 +44,7 @@ class ChatRequest(BaseModel):
 # Definimos nuestras tools #
 ############################ 
 
-@tool
-def get_imagen_recibo_de_sueldo_markdown(nombre_empleado: str) -> str:
-    """Recibe el nombre completo del empleado y obtiene la imagen del recibo de sueldo de un empleado en formato Markdown."""
-    
-    # Obtener la URL base de la API desde las variables de entorno
-    api_url = os.getenv("RRHH_BACKEND_API_URL", "http://127.0.0.1:8080")
-    endpoint = f"{api_url}/hr/recibo/imagen?nombre_empleado={nombre_empleado}"
-
-    try:
-        response = requests.get(endpoint)
-        response.raise_for_status()
-        data = response.json()
-        
-        return data.get("markdown", "No se pudo obtener la imagen del recibo de sueldo.")
-    except Exception as e:
-        return f"Error al obtener la imagen del recibo de sueldo: {str(e)}"
+# Insertar aquí las herramientas que necesitemos para el agente
 
 ########################################
 # Creamos nuestro Agente con LangGraph #
@@ -83,16 +68,12 @@ def create_agent():
         params=parameters
     )
     
+    # Define un prompt para tu agente.
     prompt = (
-        "Tu objetivo es ayudar a los empleados con sus recibos de sueldo. "
-        "Cuando un empleado te pida su recibo de sueldo, "
-        "debes responder con un mensaje que contenga la imagen del recibo de sueldo en formato Markdown. "
-        "Utiliza la herramienta `get_imagen_recibo_de_sueldo_markdown` para obtener la imagen. "
-        "El nombre del empleado se pasará como argumento a la herramienta. "
-        "La herramienta te devolverá la imagen ya en un formato markdown correct, no hace falta que la modifiques."
     )
     
-    tools = [get_imagen_recibo_de_sueldo_markdown]
+    # Agregamos las tools necesarias al agente
+    tools = []
     
     return create_react_agent(llm, tools, prompt=prompt)
 
@@ -109,14 +90,14 @@ async def discover_agents():
     return {
         "agents": [
             {
-                "name": "Agente de Recursos Humanos",
-                "description": "Agente especializado en ayudar a los empleados con sus recibos de sueldo y consultas de RRHH.",
+                "name": "LangGraph Tool Agent",
+                "description": "A LangGraph agent with tool calling capabilities",
                 "provider": {
-                    "organization": "IBM Agentic Bootcamp",
-                    "url": "https://ibm.com"
+                    "organization": "Your Organization",
+                    "url": "https://your-organization.com"
                 },
                 "version": "1.0.0",
-                "documentation_url": "https://docs.example.com/langgraph-agent",
+                "documentation_url": "https://docs.example.com/langgraph-tool-agent",
                 "capabilities": {
                     "streaming": True
                 }
