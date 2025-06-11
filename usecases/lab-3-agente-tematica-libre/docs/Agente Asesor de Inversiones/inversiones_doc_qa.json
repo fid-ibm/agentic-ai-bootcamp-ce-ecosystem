@@ -1,0 +1,72 @@
+[
+    {
+        "question": "¿Qué es una inversión?",
+        "correct_answer": "Es la asignación de capital a un activo, proyecto o instrumento financiero con la expectativa de obtener un retorno en el futuro, ya sea en forma de ganancias, intereses, dividendos o plusvalía.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cuándo surgieron los primeros mercados financieros modernos?",
+        "correct_answer": "En el siglo XVII, con la fundación de la Bolsa de Valores de Ámsterdam, donde se negociaron acciones de la Compañía Holandesa de las Indias Orientales.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un activo financiero?",
+        "correct_answer": "Es un instrumento que representa un derecho sobre un bien o flujo futuro de efectivo, como acciones, bonos, fondos mutuos y derivados.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué significa diversificación en inversiones?",
+        "correct_answer": "Es una estrategia que consiste en distribuir las inversiones entre diferentes activos o sectores para reducir el riesgo global de la cartera.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un dividendo?",
+        "correct_answer": "Es la parte de las ganancias de una empresa que se distribuye a los accionistas.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un índice bursátil?",
+        "correct_answer": "Es un indicador que refleja el comportamiento promedio de un conjunto de acciones representativas de un mercado o sector, como el S&P 500, Dow Jones o el IBEX 35.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es la liquidez en el ámbito financiero?",
+        "correct_answer": "Es la facilidad con la que un activo puede ser convertido en efectivo sin afectar significativamente su precio.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un análisis fundamental?",
+        "correct_answer": "Es un método para evaluar el valor de un activo analizando factores económicos, financieros y de la empresa, tales como estados financieros, gestión y entorno macroeconómico.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un Bear Market?",
+        "correct_answer": "Es un mercado bajista, caracterizado por una caída prolongada de los precios.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es un Fondo Mutuo?",
+        "correct_answer": "Es un vehículo de inversión que agrupa dinero de varios inversores para invertir en una cartera diversificada de activos gestionada por profesionales.",
+        "correct_answer_document_ids": [
+            "inversiones_doc.pdf"
+        ]
+    }
+]
