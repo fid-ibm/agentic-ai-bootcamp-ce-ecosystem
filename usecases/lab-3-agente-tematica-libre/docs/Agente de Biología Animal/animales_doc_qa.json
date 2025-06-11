@@ -1,0 +1,58 @@
+[
+    {
+        "question": "¿Qué es la IUCN?",
+        "correct_answer": "La IUCN es una organización internacional que se encarga de evaluar el estado de conservación de especies animales y vegetales a nivel mundial.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué es la Lista Roja de la IUCN?",
+        "correct_answer": "Es una base de datos mundial que clasifica a las especies según su riesgo de extinción.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué significa CR según la IUCN?",
+        "correct_answer": "CR significa En Peligro Crítico: especies con un riesgo extremadamente alto de extinción en un futuro inmediato.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Quién hace las evaluaciones de la IUCN?",
+        "correct_answer": "Las realizan expertos científicos a través de grupos de especialistas afiliados a la IUCN.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cómo se sabe cuántos individuos quedan de una especie?",
+        "correct_answer": "A través de censos, monitoreo satelital, datos de campo, cámaras trampa y modelos estadísticos.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cuántas especies ha evaluado la IUCN?",
+        "correct_answer": "La IUCN ha evaluado más de 160 000 especies.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué animal tiene entre 6 y 11 individuos en 2024?",
+        "correct_answer": "La vaquita, una pequeña marsopa del Golfo de California.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué especie está amenazada por redes de enmalle?",
+        "correct_answer": "La vaquita.",
+        "correct_answer_document_ids": [
+            "animales_doc.pdf"
+        ]
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "question": "¿Cuál es el origen histórico de París?",
+        "correct_answer": "París, originalmente conocida como Lutecia, fue fundada por la tribu celta de los Parisii en el siglo III a.C. Bajo dominio romano, se convirtió en una ciudad clave del imperio y más tarde en un centro religioso y académico durante la Edad Media. También fue el epicentro de la Revolución Francesa en 1789.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué tipo de clima tiene París?",
+        "correct_answer": "París tiene un clima oceánico con inviernos suaves, con un promedio de 3°C en enero, y veranos templados, alcanzando alrededor de 19°C en julio. Las precipitaciones son frecuentes durante todo el año.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cuáles son algunos aspectos culturales destacados de Bangkok?",
+        "correct_answer": "Bangkok es conocida por sus templos budistas, como el Wat Arun y el Wat Pho, y tradiciones como el Songkran (Año Nuevo tailandés), que reflejan su cultura espiritual y festiva.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cómo se describe el clima de Bangkok?",
+        "correct_answer": "Bangkok tiene un clima tropical con tres estaciones distintas: calurosa (marzo a mayo), lluviosa (junio a octubre) y fresca (noviembre a febrero). La temperatura media anual es de 29°C.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué evento histórico marcó a Londres en 1666?",
+        "correct_answer": "Londres fue significativamente afectada por el Gran Incendio de 1666, un evento que marcó un punto de inflexión en el desarrollo arquitectónico y urbano de la ciudad.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "Describe el clima de Londres.",
+        "correct_answer": "El clima oceánico de Londres presenta inviernos suaves, con temperaturas promedio de 4°C, y veranos moderados, alcanzando los 22°C. La lluvia es frecuente pero generalmente ligera durante todo el año.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué tradiciones culturales se pueden experimentar en Dubái?",
+        "correct_answer": "Dubái combina tradiciones árabes, como el Ramadán, con un estilo de vida cosmopolita. Los visitantes pueden explorar mercados tradicionales como los zocos junto a modernos rascacielos.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Qué tiene de particular el clima de Dubái?",
+        "correct_answer": "Dubái tiene un clima desértico con veranos extremadamente calurosos que superan los 40°C e inviernos cálidos alrededor de los 24°C. Las lluvias son escasas.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cuál es la importancia de Kioto en la historia japonesa?",
+        "correct_answer": "Kioto fue la capital de Japón durante más de mil años, desde el año 794 hasta 1868, y sirvió como un centro cultural y religioso. Conocida como la 'ciudad de los mil templos', conserva gran parte de su arquitectura histórica.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    },
+    {
+        "question": "¿Cómo es el clima de Kioto?",
+        "correct_answer": "Kioto tiene un clima templado con veranos cálidos y húmedos (27-35°C) e inviernos fríos (1-5°C). La lluvia es común en junio y julio.",
+        "correct_answer_document_ids": [
+            "viajes_doc.pdf"
+        ]
+    }
+]
